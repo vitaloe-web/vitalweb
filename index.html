@@ -1,0 +1,649 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="VITALOE: bebidas refrescantes de Aloe Vera. Descubre Power Blue y Aloe Vera Puro.">
+    <meta name="theme-color" content="#075b50">
+
+    <title>VITALOE | Refrescancia Natural</title>
+
+    <!-- BOOTSTRAP -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- ICONOS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         1. MENU DE NAVEGACION
+    ====================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#inicio">
+                <i class="bi bi-leaf-fill"></i> VITALOE
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Abrir menú">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#presentacion">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beneficios">Beneficios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link carrito-enlace" href="#carrito">
+                            <i class="bi bi-cart3"></i>
+                            Mi carrito
+                            <span id="contador-carrito" class="contador-carrito">0</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================
+         2. PORTADA PRINCIPAL
+    ====================================== -->
+
+    <section id="inicio" class="hero">
+
+        <div class="container hero-contenido">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-8">
+
+                    <span class="etiqueta">
+                        <i class="bi bi-flower1"></i>
+                        REFRESCANCIA NATURAL
+                    </span>
+
+                    <h1>VITALOE</h1>
+
+                    <h2 id="texto"></h2>
+
+                    <p>
+                        Descubre una experiencia refrescante
+                        con el sabor del Aloe Vera y la energía
+                        de Power Blue.
+
+                        Naturaleza y frescura en cada botella.
+                    </p>
+
+                    <a href="#productos" class="btn btn-explorar">
+                        Descubrir productos
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <a href="#presentacion" class="btn btn-outline-light ms-2">
+                        Conócenos
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         3. PRESENTACION
+    ====================================== -->
+
+    <section id="presentacion" class="presentacion">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+
+                    <span class="etiqueta">NUESTRA ESENCIA</span>
+
+                    <h2>Descubre VITALOE</h2>
+
+                    <p>
+                        VITALOE es una propuesta innovadora
+                        de bebidas refrescantes elaboradas
+                        con Aloe Vera.
+                    </p>
+
+                    <p>
+                        Buscamos ofrecer una experiencia
+                        diferente, combinando frescura,
+                        sabor y una imagen natural.
+                    </p>
+
+                    <p>
+                        Ideal para acompañarte y disfrutar
+                        de momentos especiales durante
+                        cualquier momento del día.
+                    </p>
+
+                    <a href="#productos" class="btn btn-success">
+                        Explorar productos
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="presentacion-imagen">
+
+                        <img
+                            src="img/vitaloe.jpeg"
+                            class="img-fluid imagen-principal"
+                            alt="Presentación de VITALOE">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         4. PRODUCTOS
+    ====================================== -->
+
+    <section id="productos">
+
+        <div class="container">
+
+            <span class="etiqueta text-center d-block">
+                NUESTRA COLECCIÓN
+            </span>
+
+            <h2 class="titulo">Nuestros Productos</h2>
+
+            <p class="text-center mb-5">
+                Encuentra tu sabor favorito y disfruta
+                de la refrescancia de VITALOE.
+            </p>
+
+            <div class="row justify-content-center g-4">
+
+                <!-- POWER BLUE -->
+
+                <div class="col-md-6 col-lg-5">
+
+                    <div class="producto-card azul">
+
+                        <img
+                            src="img/power blu.jpeg"
+                            alt="Bebida Power Blue"
+                            loading="lazy">
+
+                        <div class="card-body">
+
+                            <span class="producto-etiqueta azul-texto">
+                                POWER BLUE
+                            </span>
+
+                            <h3>Power Blue</h3>
+
+                            <p>Energía Azul Intensa</p>
+
+                            <h2>10 Bs</h2>
+
+                            <button
+                                type="button"
+                                class="btn btn-primary comprar"
+                                data-id="power"
+                                data-nombre="Power Blue"
+                                data-precio="10">
+
+                                <i class="bi bi-cart-plus"></i>
+                                Agregar al carrito
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ALOE VERA -->
+
+                <div class="col-md-6 col-lg-5">
+
+                    <div class="producto-card verde">
+
+                        <img
+                            src="img/aloevera.jpeg"
+                            alt="Bebida Aloe Vera Puro"
+                            loading="lazy">
+
+                        <div class="card-body">
+
+                            <span class="producto-etiqueta verde-texto">
+                                SABOR NATURAL
+                            </span>
+
+                            <h3>Aloe Vera Puro</h3>
+
+                            <p>Hidratación Esencial</p>
+
+                            <h2>10 Bs</h2>
+
+                            <button
+                                type="button"
+                                class="btn btn-success comprar"
+                                data-id="aloe"
+                                data-nombre="Aloe Vera Puro"
+                                data-precio="10">
+
+                                <i class="bi bi-cart-plus"></i>
+                                Agregar al carrito
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         5. CARRITO DE COMPRAS
+    ====================================== -->
+
+    <section id="carrito" class="carrito-seccion">
+
+        <div class="container">
+
+            <span class="etiqueta text-center d-block">
+                TUS PRODUCTOS SELECCIONADOS
+            </span>
+
+            <h2 class="titulo">Mi Carrito de Compras</h2>
+
+            <p class="text-center mb-4">
+                Revisa tus productos y confirma tu pedido.
+            </p>
+
+            <div class="carrito-contenedor">
+
+                <div id="lista-carrito">
+
+                    <div class="carrito-vacio">
+
+                        <i class="bi bi-cart-x"></i>
+
+                        <h4>Tu carrito está vacío</h4>
+
+                        <p>
+                            Agrega tus productos favoritos de VITALOE.
+                        </p>
+
+                        <a href="#productos" class="btn btn-success">
+                            Ver productos
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RESUMEN -->
+
+                <div class="resumen-carrito">
+
+                    <h3>Resumen de compra</h3>
+
+                    <div class="resumen-linea">
+                        <span>Productos:</span>
+                        <strong id="cantidad-total">0</strong>
+                    </div>
+
+                    <div class="resumen-linea">
+                        <span>Subtotal:</span>
+                        <strong id="subtotal">0,00 Bs</strong>
+                    </div>
+
+                    <div class="resumen-linea total">
+                        <span>Total:</span>
+                        <strong id="total">0,00 Bs</strong>
+                    </div>
+
+                    <button
+                        type="button"
+                        id="vaciar-carrito"
+                        class="btn btn-outline-danger w-100 mb-3">
+
+                        <i class="bi bi-trash"></i>
+                        Vaciar carrito
+
+                    </button>
+
+                    <button
+                        type="button"
+                        id="finalizar-compra"
+                        class="btn btn-success w-100">
+
+                        <i class="bi bi-whatsapp"></i>
+                        Realizar pedido
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         6. BENEFICIOS
+    ====================================== -->
+
+    <section id="beneficios">
+
+        <div class="container">
+
+            <span class="etiqueta text-center d-block">
+                LO QUE NOS CARACTERIZA
+            </span>
+
+            <h2 class="titulo">Beneficios y Propiedades</h2>
+
+            <p class="text-center mb-5">
+                Una propuesta refrescante con características
+                que hacen especial a VITALOE.
+            </p>
+
+            <div class="beneficios-grid">
+
+                <div class="beneficio">
+                    <i class="bi bi-flower1"></i>
+                    <h4>Aloe Vera Natural</h4>
+                    <p>Una propuesta inspirada en la naturaleza.</p>
+                </div>
+
+                <div class="beneficio">
+                    <i class="bi bi-droplet-fill"></i>
+                    <h4>Hidratación Diaria</h4>
+                    <p>Una alternativa refrescante para disfrutar.</p>
+                </div>
+
+                <div class="beneficio">
+                    <i class="bi bi-cup-straw"></i>
+                    <h4>Sabor Refrescante</h4>
+                    <p>Una experiencia diferente en cada botella.</p>
+                </div>
+
+                <div class="beneficio">
+                    <i class="bi bi-stars"></i>
+                    <h4>Sin Colorantes Artificiales</h4>
+                    <p>Característica de nuestra propuesta de producto.</p>
+                </div>
+
+                <div class="beneficio">
+                    <i class="bi bi-heart-fill"></i>
+                    <h4>Para Compartir</h4>
+                    <p>Ideal para disfrutar en distintos momentos.</p>
+                </div>
+
+                <div class="beneficio">
+                    <i class="bi bi-leaf"></i>
+                    <h4>Pulpa Natural</h4>
+                    <p>Una presentación inspirada en el Aloe Vera.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         7. CONTACTO
+    ====================================== -->
+
+    <section id="contacto">
+
+        <div class="container">
+
+            <span class="etiqueta text-center d-block">
+                ESTAMOS PARA AYUDARTE
+            </span>
+
+            <h2 class="titulo">Contáctanos</h2>
+
+            <p class="text-center mb-5">
+                ¿Tienes alguna consulta sobre nuestros productos?
+                Escríbenos.
+            </p>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <form id="formulario">
+
+                        <div class="mb-3">
+
+                            <label for="nombre" class="form-label">
+                                Nombre completo
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                class="form-control"
+                                placeholder="Ingresa tu nombre"
+                                minlength="2"
+                                maxlength="80"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label for="correo" class="form-label">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                type="email"
+                                id="correo"
+                                name="correo"
+                                class="form-control"
+                                placeholder="ejemplo@correo.com"
+                                required>
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label for="mensajeUsuario" class="form-label">
+                                Tu mensaje
+                            </label>
+
+                            <textarea
+                                id="mensajeUsuario"
+                                name="mensaje"
+                                class="form-control"
+                                rows="5"
+                                placeholder="Escribe tu consulta..."
+                                minlength="5"
+                                maxlength="1000"
+                                required></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-success">
+
+                            <i class="bi bi-send-fill"></i>
+                            Enviar mensaje
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         8. NOTIFICACIONES
+    ====================================== -->
+
+    <div
+        id="mensaje"
+        role="status"
+        aria-live="polite">
+    </div>
+
+
+    <!-- =====================================
+         9. WHATSAPP FLOTANTE
+    ====================================== -->
+
+    <a
+        href="https://wa.me/59176125513"
+        class="whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp">
+
+        <i class="bi bi-whatsapp"></i>
+
+    </a>
+
+
+    <!-- =====================================
+         10. FOOTER
+    ====================================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <h3>
+                <i class="bi bi-leaf-fill"></i>
+                VITALOE
+            </h3>
+
+            <p>Refrescancia Natural</p>
+
+            <div class="footer-redes">
+
+                <a
+                    href="https://wa.me/59176125513"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="WhatsApp">
+
+                    <i class="bi bi-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+            <p class="telefono-footer">
+                <i class="bi bi-telephone-fill"></i>
+                76125513
+            </p>
+
+            <hr>
+
+            <p id="copyright">
+                © VITALOE. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================
+         11. JAVASCRIPT Y BOOTSTRAP
+    ====================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
